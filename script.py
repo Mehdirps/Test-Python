@@ -16,7 +16,9 @@ if hour >= (9,46) :
 
 if hour >= (10,15) :
 
-    print("C'est LA PAUSEEE")
+    if hour <= (10,29) :
+
+        print("C'est LA PAUSEEE")
 
 if hour >= (10,30) :
 
